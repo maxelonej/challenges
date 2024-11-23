@@ -2,9 +2,8 @@
   "name": "challenges",
   "version": "1.0.0",
   "description": "A collection of my solutions to various coding challenges from platforms. Feel free to explore, learn, and provide feedback!",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "pug ./qr-code-component/src -o ./qr-code-component -P -w"
   },
   "repository": {
     "type": "git",
@@ -14,6 +13,7 @@
   "license": "MIT",
   "dependencies": {
     "pug": "^3.0.3",
+    "pug-cli": "^1.0.0-alpha6",
     "sass": "^1.81.0"
   }
 }
