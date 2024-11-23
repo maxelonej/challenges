@@ -1,0 +1,38 @@
+$slate-900: #1f314f
+$transition: .4s ease-in-out
+$blue: hsl(228, 45%, 40%)
+
+*
+  font-size: 21px
+  text-align: center
+  margin: 0
+  padding: 0
+
+body
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  height: 100dvh
+  margin: 0
+  color: snow
+  background: black
+
+.attribution
+  &__by
+    display: inline
+
+  a
+    color: $blue
+    text-decoration: none
+    border-bottom: 2px solid transparent
+    transition: $transition
+
+  a:hover
+    color: $blue
+    border-bottom: 2px solid $blue
+
+  a:not([class])
+    display: block
+    width: fit-content
+    margin-inline: auto

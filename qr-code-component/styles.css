@@ -1,6 +1,8 @@
 * {
   font-size: 21px;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -14,7 +16,22 @@ body {
   background: black;
 }
 
+.attribution__by {
+  display: inline;
+}
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: hsl(228, 45%, 40%);
   text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: 0.4s ease-in-out;
+}
+.attribution a:hover {
+  color: hsl(228, 45%, 40%);
+  border-bottom: 2px solid hsl(228, 45%, 40%);
+}
+.attribution a:not([class]) {
+  display: block;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-inline: auto;
 }/*# sourceMappingURL=styles.css.map */
