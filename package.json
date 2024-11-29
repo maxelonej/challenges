@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A collection of my solutions to various coding challenges from platforms. Feel free to explore, learn, and provide feedback!",
   "scripts": {
-    "build": "pug ./qr-code-component/src -o ./qr-code-component -P -w"
+    "build": "pug ./frontendmentor/qr-code-component/src -o ./frontendmentor/qr-code-component -P -w"
   },
   "repository": {
     "type": "git",
