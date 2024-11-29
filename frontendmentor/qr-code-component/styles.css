@@ -1,4 +1,4 @@
-.content__description__header {
+.qr__description__header {
   font-family: "Outfit", sans-serif;
   font-size: 22px;
   font-weight: bold;
@@ -7,7 +7,7 @@
   color: #1f314f;
 }
 
-.content__description__text {
+.qr__description__text {
   font-family: "Outfit", sans-serif;
   font-size: 15px;
   line-height: 140%;
@@ -26,13 +26,18 @@ body {
   background: #d5e1ef;
 }
 
-.content {
+.qr {
   background: #fff;
   padding: 16px;
   border-radius: 20px;
   box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.0477);
 }
-.content__description {
+.qr__img {
+  width: 288px;
+  height: 288px;
+  border-radius: 10px;
+}
+.qr__description {
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -41,11 +46,6 @@ body {
   text-align: center;
   width: 288px;
 }
-.content__description > * {
+.qr__description > * {
   margin: 0;
-}
-.content__qr {
-  width: 288px;
-  height: 288px;
-  border-radius: 10px;
 }/*# sourceMappingURL=styles.css.map */
