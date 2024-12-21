@@ -1,4 +1,4 @@
-.qr__description__header {
+.qr__description-title {
   font-family: "Outfit", sans-serif;
   font-size: 22px;
   font-weight: bold;
@@ -7,7 +7,7 @@
   color: #1f314f;
 }
 
-.qr__description__text {
+.qr__description-description {
   font-family: "Outfit", sans-serif;
   font-size: 15px;
   line-height: 140%;
@@ -48,4 +48,6 @@ body {
 }
 .qr__description > * {
   margin: 0;
-}/*# sourceMappingURL=styles.css.map */
+}
+
+/*# sourceMappingURL=styles.css.map */
