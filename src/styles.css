@@ -1,0 +1,53 @@
+.qr__description-title {
+  font-family: "Outfit", sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 120%;
+  letter-spacing: 0px;
+  color: #1f314f;
+}
+
+.qr__description-description {
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  color: #68778d;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100dvh;
+  margin: 0;
+  color: #1f314f;
+  background: #d5e1ef;
+}
+
+.qr {
+  background: #fff;
+  padding: 16px;
+  border-radius: 20px;
+  box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.0477);
+}
+.qr__img {
+  width: 288px;
+  height: 288px;
+  border-radius: 10px;
+}
+.qr__description {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 24px;
+  margin-bottom: 40px;
+  text-align: center;
+  width: 288px;
+}
+.qr__description > * {
+  margin: 0;
+}
+
+/*# sourceMappingURL=styles.css.map */

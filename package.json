@@ -1,14 +1,14 @@
 {
-  "name": "challenges",
+  "name": "qr-code-generator",
   "version": "1.0.0",
-  "description": "A collection of my solutions to various coding challenges from platforms. Feel free to explore, learn, and provide feedback!",
+  "description": "QR Code Generator",
   "scripts": {
-    "pug": "pug ./frontendmentor/qr-code-component/src -o ./frontendmentor/qr-code-component -P -w",
+    "pug": "pug ./src -o ./ -P -w",
     "sass": "sass --watch ."
   },
   "repository": {
     "type": "git",
-    "url": "challenges"
+    "url": "qr-code-generator"
   },
   "author": "maxelonej",
   "license": "MIT",
